@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<speak version="1.0"
+       xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis  http://www.w3.org/TR/speech-synthesis/synthesis.xsd" 
+       xml:lang="en-US">
+  This is an example of how to speak the word
+    <phoneme alphabet="x-microsoft-ups" ph="S1 W AA T . CH AX . M AX . S2 K AA L . IH T">whatchamacallit</phoneme>.
+  This is an example of how to use the say-as tag to say a Date <say-as interpret-as="date:mdy">02/11/2015</say-as>.
+  This <say-as interpret-as="ordinal"> 3rd </say-as> example is how to use the ordinal data type.
+</speak>
